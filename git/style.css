@@ -1,6 +1,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
+  font-family:Arial;
 }
 
  .navigation ul  {
@@ -38,4 +39,8 @@ li a:hover {
 
 h1 {
   color:black;
+}
+
+#text { 
+margin: 10px 50px 50px 50px;
 }
