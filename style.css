@@ -3,36 +3,58 @@ html, body {
 	padding: 0;
 }
 
+
+
  .navigation ul  {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
- }
+  background-image: linear-gradient(to right, RGB(0, 255, 255), RGB(0, 0, 255)); }
 
-li a:hover {
-  background-color: #555;
-  color: white;
-}
+
+
+
 
 .navigation li  {
   float: left;
+
 }
 
 .navigation li a {
   display: block;
-  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: gray;
+
 }
 
 
-.card-Wat {
-  width: 18rem;
-  
+
+li a:hover {
+  border-radius: 4px;
+  background-color: #555;
+  color: white;
 }
+
+
+
+.jumbotron {
+	background-image: url(fotos/Doctor-computer2.jpg); 
+	padding-top: 1%;
+	padding-bottom: 233px;
+	}
+
+
+
+.container {
+	margin-left: 1%;
+	position: relative;
+
+}
+
+
 
 h1 {
   color:black;
