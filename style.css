@@ -44,6 +44,8 @@ li a:hover {
 	background-image: url(fotos/Doctor-computer2.jpg); 
 	padding-top: 1%;
 	padding-bottom: 233px;
+	width: 100%;
+	background-repeat: no-repeat;
 	}
 
 
