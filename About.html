@@ -26,6 +26,56 @@
 <h1> About pagina</h1>
 <div>
    Nog later te bepalen tekst
+
+
+</style>
+</head>
+<body>
+
+<h2> Overzicht</h2>
+
+<table>
+  <tr>
+    <th>Soort</th>
+    <th>Wouter Paardekooper</th>
+    <th>Ashwin Jadoenathmisier</th>
+  </tr>
+  <tr>
+    <td>Telfoon</td>
+    <td>123</td>
+    <td>123</td>
+  </tr>
+  <tr>
+    <td>E-mail</td>
+    <td>110270@st-maartenscollege.nl</td>
+    <td>123@gmail</td>
+  </tr>
+  <tr>
+    <td>Woonplaats </td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Geboorte datum</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
   </div>
   
   <h2>
@@ -35,10 +85,10 @@
   <form>
 
   Voornaam:<br>
-  <input type="text" name="firstname" placeholder="Mark" required pattern="[a-z].{2,}" title="Gebruik twee of meer letters"> <br>
+  <input type="text" name="firstname" placeholder="Mark" required pattern="[A-Za-z].{2,}" title="Gebruik twee of meer letters"> <br>
 
   Achternaam:<br> 
-  <input type="text" name="lastname" placeholder="De Jong" required pattern="[a-z].{2,}" title="Gebruik twee of meer letters"><br>
+  <input type="text" name="lastname" placeholder="De Jong" required pattern="[A-Za-z].{2,}" title="Gebruik twee of meer letters"><br>
 
   Geslacht:<br>
   <input type="radio" name="gender" value="male" checked> Man<br>
@@ -62,8 +112,12 @@
   <option value="Verenigd Koninkrijk">
   <option value="Oostenrijk">
   <option value="Zwitserland">
-</datalist>
-&nbsp;
+</datalist> <br>
+
+
+<input type="checkbox" name="Voorwaarden" value="Akkoord" required> Ik ga akkoord met de <a href="Algemene_Voorwaarden.txt"> Algemene voorwaarden. </a> <br>
+ <br> 
+
    <input type="submit" value="Bevestigen">
 
 </form>
