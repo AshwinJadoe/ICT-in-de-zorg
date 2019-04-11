@@ -19,6 +19,7 @@ html, body {
 
 .navigation li  {
   float: left;
+   transition: transform .2s;
 
 }
 
@@ -28,7 +29,7 @@ html, body {
   padding: 14px 16px;
   text-decoration: none;
   color: gray;
-
+transform: scale(1.5);
 }
 
 
@@ -37,8 +38,8 @@ li a:hover {
   border-radius: 4px;
   background-color: #555;
   color: white;
-}
 
+ }
 
 
 .jumbotron {
