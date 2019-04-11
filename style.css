@@ -11,7 +11,8 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(to right, RGB(0, 255, 255), RGB(0, 0, 255)); }
+  background-image: linear-gradient(to right, RGB(0, 255, 255), RGB(0, 0, 255));
+}
 
 
 
@@ -102,4 +103,17 @@ button {
 }
 input[type=submit]:hover {background-color: #051e47; 
 transform: scale(1.1);}
+
+@media (min-width: 600px) {  
+   .tekst {
+    column-count:2
+  }
+}
+
+@media (min-width: 800px) {
+  .tekst {
+    column-count:3
+  }
+}
+
 
