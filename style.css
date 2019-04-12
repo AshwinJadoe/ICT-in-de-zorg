@@ -116,4 +116,17 @@ transform: scale(1.1);}
   }
 }
 
+.page-footer a {
+   color: black;
+}
+
+.page-footer {
+  background-image: linear-gradient(to right, RGB(0, 255, 255), RGB(0, 0, 255));
+  width: 100%;
+  margin-top: 80px;
+ 
+}
+
+
+
 
