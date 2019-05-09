@@ -5,6 +5,7 @@
   <link rel="icon" href="fotos/iconlsp.png" type="image/png"/>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About?</title>
 </head>
 
@@ -16,18 +17,18 @@
 		  <li><a href="Wat.html">Wat</a></li>
 		  <li><a href="Waarom.html">Waarom</a></li>
 		  <li><a href="Hoe.html">Hoe</a></li>
-		  <li><a href="About.html">About</a></li>
+		  <li><a href="About.html">Over</a></li>
       <li><a href="contact.html">Contact</a></li>
 		</ul>
 
 </div>
 
-
+<div class="Uitlijnen">
   <h2>
      Contact:
   </h2>
   
-  <form>
+  <form >
 
   Voornaam:<br>
   <input type="text" name="firstname" placeholder="Mark" required pattern="[A-Za-z].{2,}" title="Gebruik twee of meer letters"> <br>
@@ -44,7 +45,7 @@
   <input type="email" name="e-mail" placeholder="uw.mail@adress.nl" required><br>
 
   Telefoon nummer: <br>
-   <input type="tel" name="phonenumeber" placeholder="0612341234" required><br>
+   <input type="tel" name="phonenumeber" placeholder="0612341234" pattern="[0-9---+-+].{6,14}" title="Gebruik alleen cijfers en een streepje (tussen de 6 en 14 tekens)" required><br>
 
  Land: <br>
    <input list="Land" placeholder="Klik om te kiezen" required>
@@ -70,5 +71,6 @@
   
   </div>
   
+  </div>
 </div>
 </body>

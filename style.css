@@ -11,7 +11,8 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(to right, RGB(0, 255, 255), RGB(0, 0, 255)); }
+  background-image: linear-gradient(to right, RGB(0, 255, 255), RGB(0, 0, 255));
+}
 
 
 
@@ -19,6 +20,7 @@ html, body {
 
 .navigation li  {
   float: left;
+
 
 }
 
@@ -37,8 +39,8 @@ li a:hover {
   border-radius: 4px;
   background-color: #555;
   color: white;
-}
 
+ }
 
 
 .jumbotron {
@@ -101,4 +103,30 @@ button {
 }
 input[type=submit]:hover {background-color: #051e47; 
 transform: scale(1.1);}
+
+@media (min-width: 600px) {  
+   .tekst {
+    column-count:2
+  }
+}
+
+@media (min-width: 800px) {
+  .tekst {
+    column-count:3
+  }
+}
+
+.page-footer a {
+   color: black;
+}
+
+.page-footer {
+  background-image: linear-gradient(to right, RGB(0, 255, 255), RGB(0, 0, 255));
+  width: 100%;
+  margin-top: 80px;
+ 
+}
+
+
+
 
