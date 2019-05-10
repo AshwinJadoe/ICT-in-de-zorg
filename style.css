@@ -89,7 +89,7 @@ li a:hover {
 	min-width: 100%;
 	background-repeat: no-repeat;
  	background-position: center;
-  	background-size: cover;
+  background-size: cover;
 	}
 
 
@@ -110,7 +110,8 @@ h1 {
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 80%;
+  
 }
 
 td, th {
@@ -142,31 +143,19 @@ transform: scale(1.1);}
 
 @media (min-width: 600px) {  
    .tekst {
-    column-count:2
-      padding-left: 30px;	
-      padding-right: 100px; 
+    column-count:2;
   }
 }
 
 @media (min-width: 800px) {
   .tekst {
-    column-count:3
-padding-left: 30px;	
-padding-right: 100px; 
+    column-count:3;
   }
 }
 
-.page-footer a {
-   color: black;
+.Uitlijnen {
+  padding: 0 3% 5%;
 }
-
-.page-footer {
-  background-color: transparent;
-  width: 100%;
-  margin-top: 80px;
- 
-}
-
 
 
 
