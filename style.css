@@ -122,7 +122,7 @@ padding-right: 100px;
 }
 
 .page-footer {
-  background-image: linear-gradient(to right, RGB(0, 255, 255), RGB(0, 0, 255));
+  background-color: transparent;
   width: 100%;
   margin-top: 80px;
  
