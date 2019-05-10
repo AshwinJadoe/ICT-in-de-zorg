@@ -5,13 +5,11 @@ html, body {
 }
 
 
-
  .navigation ul  {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-image: linear-gradient(to right, RGB(0, 255, 255), RGB(0, 0, 255));
+ 
 }
 
 
@@ -34,6 +32,39 @@ html, body {
 }
 
 
+.dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; 
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 li a:hover {
   border-radius: 4px;
@@ -42,10 +73,18 @@ li a:hover {
 
  }
 
+.sticky-top {
+    position: -webkit-sticky;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1020;
+    background-color: #231e1e14;
+}
 
 .jumbotron {
 	background-image: url(fotos/Doctor-computer2.jpg); 
-	padding-top: 1%;
+	padding-top: 5%;
 	padding-bottom: 233px;
 	min-width: 100%;
 	background-repeat: no-repeat;
