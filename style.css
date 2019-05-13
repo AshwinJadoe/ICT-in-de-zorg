@@ -47,7 +47,6 @@ html, body {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1; 
 }
@@ -83,14 +82,25 @@ li a:hover {
 }
 
 .jumbotron {
+<<<<<<< HEAD
 	background-image: url(fotos/Doctor-computer2.jpg); 
 	padding-top: 5%;
 	padding-bottom: 233px;
 	min-width: 100%;
 	background-repeat: no-repeat;
  	background-position: center;
-  	background-size: cover;
+  background-size: cover;
 	}
+
+.banner {
+  background-image: url(images/Doctor-computerBanner.jpg); 
+	padding-top: 5%;
+	padding-bottom: 233px;
+	min-width: 100%;
+	background-repeat: no-repeat;
+ 	background-position: center;
+  background-size: cover;
+}
 
 
 
@@ -110,7 +120,8 @@ h1 {
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 80%;
+  
 }
 
 td, th {
@@ -141,31 +152,33 @@ input[type=submit]:hover {background-color: #051e47;
 transform: scale(1.1);}
 
 @media (min-width: 600px) {  
-   .tekst {
-    column-count:2
-      padding-left: 30px;	
-      padding-right: 100px; 
+   .tekst, p {
+    column-count:2;
   }
 }
 
 @media (min-width: 800px) {
-  .tekst {
-    column-count:3
-padding-left: 30px;	
-padding-right: 100px; 
+  .tekst, p {
+    column-count:3;
   }
 }
 
-.page-footer a {
-   color: black;
+.Uitlijnen {
+  padding: 0 3% 5%;
 }
 
-.page-footer {
-  background-image: linear-gradient(to right, RGB(0, 255, 255), RGB(0, 0, 255));
-  width: 100%;
-  margin-top: 80px;
- 
+caption {
+      caption-side: top;
 }
+
+
+
+.list ul {
+    list-style-type:disc;
+    }
+
+.list ol {  list-style-type: lower-alpha;}
+  
 
 
 
