@@ -173,3 +173,13 @@ caption {
 
 
 
+.list ul {
+    list-style-type:disc;
+    }
+
+.list ol {  list-style-type: lower-alpha;}
+  
+
+
+
+
