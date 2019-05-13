@@ -92,6 +92,16 @@ li a:hover {
   background-size: cover;
 	}
 
+.banner {
+  background-image: url(images/Doctor-computerBanner.jpg); 
+	padding-top: 5%;
+	padding-bottom: 233px;
+	min-width: 100%;
+	background-repeat: no-repeat;
+ 	background-position: center;
+  background-size: cover;
+}
+
 
 
 .container {
