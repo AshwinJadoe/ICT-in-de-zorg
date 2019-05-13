@@ -106,10 +106,7 @@ h1 {
   color:black;
 }
 
-.Uitlijnen {
-padding-left: 30px;	
-padding-right: 100px; 
-}
+
 
 table {
   border-collapse: collapse;
@@ -146,12 +143,16 @@ transform: scale(1.1);}
 @media (min-width: 600px) {  
    .tekst {
     column-count:2
+      padding-left: 30px;	
+      padding-right: 100px; 
   }
 }
 
 @media (min-width: 800px) {
   .tekst {
     column-count:3
+padding-left: 30px;	
+padding-right: 100px; 
   }
 }
 
