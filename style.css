@@ -12,7 +12,10 @@ html, body {
  
 }
 
-
+.container > p {
+  column-count:1;
+ 
+}
 
 
 
@@ -82,7 +85,6 @@ li a:hover {
 }
 
 .jumbotron {
-<<<<<<< HEAD
 	background-image: url(fotos/Doctor-computer2.jpg); 
 	padding-top: 5%;
 	padding-bottom: 233px;
@@ -91,10 +93,6 @@ li a:hover {
  	background-position: center;
   background-size: cover;
 	}
-
-.card-body > p {
-  column-count: 1;
-}
 
 .banner {
   background-image: url(images/Doctor-computerBanner.jpg); 
