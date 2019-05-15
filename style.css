@@ -92,6 +92,10 @@ li a:hover {
   background-size: cover;
 	}
 
+.card-body > p {
+  column-count: 1;
+}
+
 .banner {
   background-image: url(images/Doctor-computerBanner.jpg); 
 	padding-top: 5%;
