@@ -12,10 +12,7 @@ html, body {
  
 }
 
-.container > p {
-  column-count:1;
- 
-}
+
 
 
 
@@ -175,7 +172,7 @@ transform: scale(1.1);}
 }
 
 @media (min-width: 600px) {  
-   p {
+   p:not(.card-text) {
     column-count:2;
   }
   
@@ -190,7 +187,7 @@ transform: scale(1.1);}
 }
 
 @media (min-width: 800px) {
-   p {
+   p:not(.card-text, .lead) {
     column-count:3;
     }
   
