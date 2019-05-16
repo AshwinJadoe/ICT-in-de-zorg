@@ -207,6 +207,12 @@ transform: scale(1.1);}
   padding: 0 3% 5%;
 }
 
+.Uitlijnen2 {
+  padding: 0 15px 5%;
+  margin-left: 1%;
+}
+
+
 caption {
       caption-side: top;
 }
