@@ -1,81 +1,96 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="icon" href="images/iconlsp.png" type="image/png"/>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
+    <link rel="icon" href="images/iconlsp.png" type="image/png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
 </head>
 
 <body>
+    <div class="navigation sticky-top">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Informatie
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="Wat.html">Wat?</a>
+                        <a href="Waarom.html">Waarom?</a>
+                        <a href="Hoe.html">Hoe?</a>
+                        <a href="Waarom.html#toestemming">Toestemming</a>
+                    </div>
+            </li>
 
-<div class="navigation sticky-top">
-		<ul>
-		  <li><a href="index.html">Home</a></li>
-		  <li><a href="Wat.html">Wat</a></li>
-		  <li><a href="Waarom.html">Waarom</a></li>
-		  <li><a href="Hoe.html">Hoe</a></li>
-		  <li><a href="About.html">Over</a></li>
-      <li><a href="contact.html">Contact</a></li>
-		</ul>
-  </div>
-  
-<div class="banner">
-  </div>
-  
-<div class="Uitlijnen">
-  <h2>
+            <li><a href="About.html">Over</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+
+        <div class="banner">
+        </div>
+
+        <div class="Uitlijnen">
+            <h1>
      Contact
-  </h2>
-  <p>
-  Heeft u vragen, opmerkingen of tips? Dan kunt u dit formulier invullen zodat wij contact met u kunnen leggen.
-  </p>
-  
-  <form >
+  </h1>
+            <p>
+                Heeft u vragen, opmerkingen of tips? Dan kunt u dit formulier invullen zodat wij contact met u kunnen leggen.
+            </p>
 
-  Voornaam:<br>
-  <input type="text" name="firstname" placeholder="Mark" required pattern="[A-Za-z].{2,}" title="Gebruik twee of meer letters"> <br>
+            <form>
 
-  Achternaam:<br> 
-  <input type="text" name="lastname" placeholder="De Jong" required pattern="[A-Za-z].{2,}" title="Gebruik twee of meer letters"><br>
+                Voornaam:
+                <br>
+                <input type="text" name="firstname" placeholder="Mark" required pattern="[A-Za-z].{2,}" title="Gebruik twee of meer letters">
+                <br> Achternaam:
 
-  Geslacht:<br>
-  <input type="radio" name="gender" value="male" checked> Man<br>
-  <input type="radio" name="gender" value="female"> Vrouw<br>
-  <input type="radio" name="gender" value="other"> Anders <br>
+                <br>
+                <input type="text" name="lastname" placeholder="De Jong" required pattern="[A-Za-z].{2,}" title="Gebruik twee of meer letters">
+                <br> Geslacht:
 
-  E-mail:<br>
-  <input type="email" name="e-mail" placeholder="uw.mail@adress.nl" required><br>
+                <br>
+                <input type="radio" name="gender" value="male" checked> Man
+                <br>
+                <input type="radio" name="gender" value="female"> Vrouw
+                <br>
+                <input type="radio" name="gender" value="other"> Anders
+                <br> E-mail:
 
-  Telefoon nummer: <br>
-   <input type="tel" name="phonenumeber" placeholder="0612341234" pattern="[0-9---+-+].{6,14}" title="Gebruik alleen cijfers en een streepje (tussen de 6 en 14 tekens)" required><br>
+                <br>
+                <input type="email" name="e-mail" placeholder="uw.mail@adress.nl" required>
+                <br> Telefoon nummer:
+                <br>
+                <input type="tel" name="phonenumeber" placeholder="0612341234" pattern="[0-9---+-+].{6,14}" title="Gebruik alleen cijfers en een streepje (tussen de 6 en 14 tekens)" required>
+                <br> Land:
+                <br>
+                <input list="Land" placeholder="Klik om te kiezen" required>
+                <datalist id="Land">
+                    <option value="Nederland">
+                        <option value="Belgi&#235">
+                            <option value="Luxemburg">
+                                <option value="Frankrijk">
+                                    <option value="Duitsland">
+                                        <option value="Verenigd Koninkrijk">
+                                            <option value="Oostenrijk">
+                                                <option value="Zwitserland">
+                </datalist>
+                <br>
 
- Land: <br>
-   <input list="Land" placeholder="Klik om te kiezen" required>
-<datalist id="Land">
-  <option value="Nederland">
-  <option value="Belgi&#235">
-  <option value="Luxemburg">
-  <option value="Frankrijk">
-  <option value="Duitsland">
-  <option value="Verenigd Koninkrijk">
-  <option value="Oostenrijk">
-  <option value="Zwitserland">
-</datalist> <br>
+                <input type="checkbox" name="Voorwaarden" value="Akkoord" required> Ik ga akkoord met de <a href="Algemene_Voorwaarden.txt"> Algemene voorwaarden. </a>
+                <br>
+                <br>
 
+                <input type="submit" value="Bevestigen">
 
-<input type="checkbox" name="Voorwaarden" value="Akkoord" required> Ik ga akkoord met de <a href="Extra/Algemene_Voorwaarden.txt"> Algemene voorwaarden. </a> <br>
- <br> 
+            </form>
 
-   <input type="submit" value="Bevestigen">
+        </div>
 
-</form>
-  
-  
-  </div>
-  
-  </div>
-</div>
+    </div>
+    </div>
 </body>
